@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact page</title>
+  </head>
+  <body>
+    <div class="gridcontainer">
+      <header>
+        <h1>GAME BLOG</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <div class="logout-container">
+            <a href="index.html">Logout</a>
+          </div>
+        </ul>
+      </nav>
+      <main>
+        <img
+          id="heroimg"
+          class="desktop"
+          src="imgs/andreas-haslinger-JssHVzCjoVQ-unsplash.jpg"
+          alt="PS image"
+        />
+        <div id="wrapper">
+          <h2>Our Team</h2>
+          <p>
+            Dive into the captivating narratives of mystery games where players
+            become detectives, solving intricate puzzles and uncovering secrets
+            hidden within atmospheric worlds. From classic point-and-click
+            adventures to modern narrative-driven experiences, explore the
+            allure of unraveling mysteries in gaming.
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Kiran</td>
+                <td>HTML</td>
+                <td>India</td>
+              </tr>
+              <tr>
+                <td>John</td>
+                <td>CSS</td>
+                <td>Canada</td>
+              </tr>
+              <tr>
+                <td>Edison</td>
+                <td>Javascript</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Ronaldo</td>
+                <td>PHP</td>
+                <td>Protugal</td>
+              </tr>
+              <tr>
+                <td>Zidane</td>
+                <td>SQL</td>
+                <td>France</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3>Join us</h3>
+          <p>
+            Enter the realm of fantasy and embark on quests to defeat mighty
+            dragons, explore ancient ruins, and forge your legend in the annals
+            of gaming history. Whether you prefer high-fantasy epics or
+            whimsical adventures, discover the magic of crafting your own story
+            in fantastical worlds.
+          </p>
+          <form action="contact.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter name" />
+            <label for="mail">Email:</label>
+            <input
+              type="email"
+              id="mail"
+              name="mail"
+              placeholder="Enter mail address"
+            />
+            <label for="">Select:</label>
+            <div class="container">
+              <input type="radio" id="Home" name="container" />
+              <label for="Home">Home</label>
+              <input type="radio" id="about" name="container" />
+              <label for="about">About</label>
+              <input type="radio" id="contact" name="container" />
+              <label for="contact">Contact</label>
+            </div>
+            <label for="queries">Queries</label>
+            <textarea
+              name="queries"
+              id="queries"
+              cols="30"
+              rows="5"
+              placeholder="Any message"
+            ></textarea>
+            <button>Submit</button>
+          </form>
+        </div>
+      </main>
+      <footer>
+        <div>
+          <h3>Store Hours</h3>
+          <ul>
+            <li>Weekdays 9:00 A.M - 9:00 P.M</li>
+            <li>Weekends 9:00 A.M - 7:00 P.M</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Stores</h3>
+          <ul>
+            <li>Kitchener</li>
+            <li>Cambridge</li>
+            <li>Waterloo</li>
+            <li>Brantford</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <nav class="footnav">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <p id="copyright">copyrights &copy; Game Blog 2024</p>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
